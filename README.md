@@ -19,6 +19,6 @@ cp config.sample.php config.php
 ```
 crontab -e
 
-  30 6 * * * php /path/to/AkariBot-PHP/post/morning.php #おはトゥート 毎朝06:30
-  5 0 * * 1 php /path/to/AkariBot-PHP/post/weekly_activities.php #統計トゥート 毎週月曜日00:05
+  30 6 * * * php /path/to/AkariBot-PHP/morning.php #おはトゥート 毎朝06:30
+  5 0 * * 1 php /path/to/AkariBot-PHP/weekly_activities.php #統計トゥート 毎週月曜日00:05
 ```
