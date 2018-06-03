@@ -1,7 +1,6 @@
 <?php
-require_once("config.php");
-
 function mastodon_post($data) {
+    require("config.php");
     $ch = curl_init();
     $options = $data;
     curl_setopt($ch, CURLOPT_URL, "https://{$instance}". '/api/v1/statuses');
