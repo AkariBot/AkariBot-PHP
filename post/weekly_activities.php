@@ -1,5 +1,5 @@
 <?php
-require_once("mastodon.class.php");
+require_once("../lib/mastodon.class.php");
 
 $str = "";
 $file = file_get_contents("https://{$instance}/api/v1/instance/activity");

@@ -1,5 +1,5 @@
 <?php
-require_once("mastodon.class.php");
+require_once("../lib/mastodon.class.php");
 
 $str = "";
 $i = 0;
